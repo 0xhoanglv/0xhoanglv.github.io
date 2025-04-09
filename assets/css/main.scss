@@ -1,0 +1,13 @@
+/* 
+  main.scss 
+  Custom styles for the Jekyll site.
+*/
+
+/* We need to add display:inline in order to align the '>>' of the 'read more' link */
+.post-excerpt p {
+	display: inline;
+}
+
+// Use modern Sass module system
+@use "syntax";
+@use "starsnonscss";
